@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f7f5">
+  <meta name="description" content="Um ambiente de estudo em comunicação, argumentação, oratória, semiótica e autoria.">
+  <title>Manual de Comunicação — Ambiente de Estudo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Ir para o conteúdo</a>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Navegação do curso">
+      <a class="brand" href="#/" aria-label="Manual de Comunicação — início"><span class="brand-mark" aria-hidden="true">M</span><div><strong>Manual de<br>Comunicação</strong><small>Ambiente de estudo</small></div></a>
+      <button class="icon-button mobile-menu menu-close" id="menu-close" aria-label="Fechar navegação">×</button>
+      <label for="lesson-search" class="search-label">Encontrar uma aula</label>
+      <div class="search-box"><span aria-hidden="true">⌕</span><input id="lesson-search" autocomplete="off" placeholder="Tema ou número da aula"></div>
+      <div class="course-progress"><div class="progress-label"><span>Meu percurso</span><span id="progress-percent">0%</span></div><div class="progress-track"><div id="progress-fill"></div></div><small id="progress-detail">Carregando…</small></div>
+      <nav class="sidebar-scroll" id="nav" aria-label="Índice das aulas"></nav>
+      <div class="side-bottom"><a href="#/sobre">Sobre o projeto</a><a href="INDICE.md" target="_blank" rel="noopener">Índice em Markdown ↗</a></div>
+    </aside>
+    <div class="mobile-overlay" id="mobile-overlay" hidden></div>
+    <main class="main-layout" id="main">
+      <header class="topbar">
+        <button class="icon-button mobile-menu" id="menu-button" aria-controls="sidebar" aria-label="Abrir navegação" aria-expanded="false">☰</button>
+        <div class="crumbs" id="breadcrumbs">Manual / Início</div>
+        <div class="topbar-actions"><button class="icon-button" id="theme-button" aria-label="Alternar aparência" title="Alternar aparência">◐</button><a class="repo-link" href="https://github.com/deboralutz/manual-de-comunicacao-web" target="_blank" rel="noopener">GitHub ↗</a></div>
+      </header>
+      <div class="reading-progress" aria-hidden="true"><div id="reading-progress-fill"></div></div>
+      <div class="view-shell" id="view" tabindex="-1" aria-live="polite"></div>
+      <footer class="page-footer">Protótipo educacional em desenvolvimento · Referências científicas pendentes de verificação.</footer>
+    </main>
+    <aside class="toc-panel" id="toc-panel" aria-label="Nesta aula"><div class="toc-heading">NESTA AULA</div><nav id="toc"></nav><div class="toc-note">Um estudo em desenvolvimento, com perguntas abertas e revisão editorial contínua.</div></aside>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/marked@15.0.12/lib/marked.umd.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.min.js" defer></script>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
