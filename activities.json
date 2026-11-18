@@ -1,0 +1,791 @@
+[
+  {
+    "path": "parte-05-autoria/5.01-autoria-e-originalidade.md",
+    "anchor": "9. Um exercício: reconhecer onde a contribuição autoral começa a aparecer",
+    "prompt": "Seleciona uma formulação.",
+    "defaultId": "investigativa",
+    "options": [
+      {
+        "id": "geral",
+        "label": "Formulação geral",
+        "analysis": "Apresenta uma conclusão ampla sobre dificuldades e aprendizagem. Ainda não estabelece quais experiências são consideradas, nem justifica por que todas elas produziriam lições.",
+        "frase": "Todas as dificuldades trazem lições importantes para nossa evolução."
+      },
+      {
+        "id": "descritiva",
+        "label": "Formulação descritiva",
+        "analysis": "Identifica um acontecimento e uma interpretação possível. É mais delimitada, mas ainda não desenvolve as condições em que essa relação pode ocorrer.",
+        "frase": "Uma pessoa que não consegue concluir determinada tarefa pode interpretar essa dificuldade como sinal de incapacidade."
+      },
+      {
+        "id": "investigativa",
+        "label": "Formulação investigativa",
+        "analysis": "Transforma a relação entre acontecimento e autoavaliação em objeto de investigação. Essa escolha pode orientar uma perspectiva autoral, mas ainda precisará de desenvolvimento e, conforme as afirmações feitas, de evidências.",
+        "frase": "O que acontece quando deixamos de avaliar uma dificuldade específica e passamos a utilizá-la como definição sobre nossa capacidade?"
+      }
+    ]
+  },
+  {
+    "path": "parte-05-autoria/5.02-pensamento-e-linguagem.md",
+    "anchor": "10. Como reconhecer o que está dificultando uma passagem do roteiro?",
+    "prompt": "Escolhe uma dificuldade para examinar.",
+    "defaultId": "ideia",
+    "options": [
+      {
+        "id": "palavra",
+        "label": "A palavra não representa bem a experiência",
+        "analysis": "Antes de substituir a expressão, precisamos saber o que aconteceu. Houve proibição, desaprovação, pressão ou uma consequência material efetiva? A escolha do verbo depende da situação.",
+        "frase": ""
+      },
+      {
+        "id": "ideia",
+        "label": "A relação conceitual ainda está pouco clara",
+        "analysis": "O problema não é apenas de estilo. A frase associa liberdade à independência absoluta. Precisamos examinar o que significa depender, quais dependências são inevitáveis e que dimensão da liberdade está sendo discutida.",
+        "frase": ""
+      },
+      {
+        "id": "fonte",
+        "label": "A afirmação exige evidências adicionais",
+        "analysis": "A passagem apresenta uma afirmação empírica sobre a frequência de um comportamento. Seria necessário definir o fenômeno e localizar pesquisas pertinentes, ou retirar a generalização.",
+        "frase": ""
+      },
+      {
+        "id": "interlocutor",
+        "label": "A autora conhece a relação, mas ainda não a explicou",
+        "analysis": "A frase pressupõe que o público já compreende a distinção. Podemos apresentar uma situação concreta e explicar por que pedir informações não é necessariamente solicitar permissão.",
+        "frase": ""
+      }
+    ]
+  },
+  {
+    "path": "parte-05-autoria/5.03-estilo-e-voz-propria.md",
+    "anchor": "13. Um exercício: qual versão parece mais natural?",
+    "prompt": "Escolhe uma formulação para analisar.",
+    "defaultId": "oral",
+    "options": [
+      {
+        "id": "poetica",
+        "label": "Formulação metafórica",
+        "analysis": "Utiliza diferentes imagens expressivas: feridas, tropeços e espelhos. Pode funcionar num texto literário, mas seria necessário esclarecer o que cada metáfora acrescenta ao conceito. Não é automaticamente falsa nem inadequada; sua utilidade depende da intenção e do contexto.",
+        "frase": "Há feridas silenciosas que transformam nossos tropeços em espelhos daquilo que acreditamos ser."
+      },
+      {
+        "id": "analitica",
+        "label": "Formulação conceitual",
+        "analysis": "É relativamente precisa quanto à possibilidade descrita, embora ainda possa exigir definições e evidências. O registro mais técnico pode ser adequado a uma exposição acadêmica e menos natural em determinadas passagens de vídeo.",
+        "frase": "Um desempenho insatisfatório pode contribuir para uma generalização negativa da autoavaliação."
+      },
+      {
+        "id": "oral",
+        "label": "Formulação conversacional",
+        "analysis": "Introduz o fenômeno com linguagem mais próxima da conversação. Pode ser adequada para abrir uma investigação, mas ainda precisará mostrar como e em quais circunstâncias essa interpretação acontece.",
+        "frase": "Às vezes, uma coisa não dá certo e começamos a pensar que isso diz muito mais sobre nós do que sobre aquela situação."
+      }
+    ]
+  },
+  {
+    "path": "parte-05-autoria/5.04-formulas-e-cliches.md",
+    "anchor": "10. Um exercício: o que realmente precisa ser revisado?",
+    "prompt": "Que dimensão desejas examinar primeiro?",
+    "defaultId": "pensamento",
+    "options": [
+      {
+        "id": "metafora",
+        "label": "As metáforas",
+        "analysis": "A frase reúne imagens de correntes e comando. Elas podem sugerir aprisionamento e controle, mas precisamos identificar quais condições concretas estão sendo representadas. A metáfora não é automaticamente inadequada.",
+        "frase": ""
+      },
+      {
+        "id": "certeza",
+        "label": "A generalização e a certeza",
+        "analysis": "A expressão apresenta uma necessidade universal e uma mudança definitiva. Talvez a autora esteja descrevendo apenas uma experiência particular ou defendendo uma possibilidade, não uma regra aplicável a todas as pessoas.",
+        "frase": ""
+      },
+      {
+        "id": "pensamento",
+        "label": "A ideia ainda pouco delimitada",
+        "analysis": "Precisamos esclarecer o que significa assumir o comando da existência. Seria tomar decisões? Questionar crenças? Estabelecer limites? Sem essa distinção, uma troca de palavras pode apenas produzir outra frase igualmente vaga.",
+        "frase": ""
+      },
+      {
+        "id": "ritmo",
+        "label": "O ritmo oral",
+        "analysis": "Também é possível considerar se a frase é natural para quem irá pronunciá-la. Mas melhorar sua sonoridade não resolverá, por si só, as questões conceituais e argumentativas.",
+        "frase": ""
+      }
+    ]
+  },
+  {
+    "path": "parte-05-autoria/5.05-autoria-e-ia.md",
+    "anchor": "13. Um exercício: o que uma sugestão de IA mudou no argumento?",
+    "prompt": "Qual alteração consideras mais importante?",
+    "defaultId": "tese",
+    "options": [
+      {
+        "id": "vocab",
+        "label": "Apenas o vocabulário mudou",
+        "analysis": "A alteração foi além do vocabulário. A frase introduziu uma condição necessária — superar diferenças — que não estava na formulação original.",
+        "frase": ""
+      },
+      {
+        "id": "tese",
+        "label": "A conclusão foi modificada",
+        "analysis": "Essa é a diferença principal. A primeira frase afirma a possibilidade de respeito apesar da discordância. A segunda sugere que superar diferenças é condição para compreender o respeito. São proposições distintas.",
+        "frase": ""
+      },
+      {
+        "id": "forca",
+        "label": "A mesma ideia ficou apenas mais forte",
+        "analysis": "A segunda frase pode soar mais enfática, mas não representa simplesmente uma versão mais intensa da primeira. Ela acrescenta uma interpretação que precisaria ser examinada.",
+        "frase": ""
+      }
+    ]
+  },
+  {
+    "path": "parte-05-autoria/5.06-sintese-de-referencias.md",
+    "anchor": "11. Um exercício: quando uma conexão entre autores é justificável?",
+    "prompt": "Qual conclusão consideras mais bem sustentada?",
+    "defaultId": "ponte",
+    "options": [
+      {
+        "id": "igual",
+        "label": "Os dois demonstram o mesmo fenômeno.",
+        "analysis": "Essa conclusão não decorre das fontes. Compartilhar o termo informação não demonstra que os autores estudem o mesmo objeto ou estabeleçam mecanismos equivalentes.",
+        "frase": ""
+      },
+      {
+        "id": "ponte",
+        "label": "Podemos investigar relações entre seus conceitos, desde que sejam explicitadas e justificadas.",
+        "analysis": "Essa é a alternativa metodologicamente mais defensável. A comparação pode revelar relações, diferenças e novas perguntas, mas a conexão precisa ser demonstrada conceitualmente e, quando pertinente, empiricamente.",
+        "frase": ""
+      },
+      {
+        "id": "incomparavel",
+        "label": "Conceitos de disciplinas diferentes nunca podem ser relacionados.",
+        "analysis": "Essa conclusão também é excessiva. O trabalho interdisciplinar é possível, mas não pode depender apenas de semelhanças vocabulares.",
+        "frase": ""
+      }
+    ]
+  },
+  {
+    "path": "parte-05-autoria/5.07-oficina-de-revisao-autoral.md",
+    "anchor": "10. Um exercício final de revisão autoral",
+    "prompt": "Escolhe uma dimensão para investigar.",
+    "defaultId": "experiencia",
+    "options": [
+      {
+        "id": "certeza",
+        "label": "A afirmação é abrangente demais.",
+        "analysis": "A frase estabelece uma transformação definitiva: todas as ilusões desapareceriam. Precisaríamos de razões para sustentar essa relação. Também seria necessário definir o que significa despertar.",
+        "frase": ""
+      },
+      {
+        "id": "metafora",
+        "label": "A metáfora precisa ser esclarecida.",
+        "analysis": "Despertar pode ser uma imagem expressiva, mas não informa automaticamente o que aconteceu. Talvez represente reconhecer uma contradição, modificar uma crença ou tomar determinada decisão. Sua função dependerá do contexto.",
+        "frase": ""
+      },
+      {
+        "id": "experiencia",
+        "label": "Talvez a frase não represente a experiência.",
+        "analysis": "Uma transformação apresentada como definitiva pode não corresponder à experiência real. A autora pode ter reconhecido apenas uma diferença importante, sem considerar que passou a conhecer integralmente a realidade ou a si mesma.",
+        "frase": ""
+      },
+      {
+        "id": "ritmo",
+        "label": "Talvez o problema esteja na expressão oral.",
+        "analysis": "Podemos avaliar se a frase soa artificial quando pronunciada. Mas ajustar o ritmo não resolverá, por si só, suas afirmações abrangentes e seus conceitos ainda indefinidos.",
+        "frase": ""
+      }
+    ]
+  },
+  {
+    "path": "parte-04-semiotica/4.05-pnl-e-evidencias.md",
+    "anchor": "12. Exercício: distinguir uma pergunta esclarecedora de uma sugestão persuasiva",
+    "prompt": "Qual intervenção desejas examinar?",
+    "defaultId": "a",
+    "options": [
+      {
+        "id": "a",
+        "label": "Perguntar o que aconteceria se ela discordasse.",
+        "analysis": "A pergunta procura esclarecer as consequências que a pessoa antecipa. Pode revelar riscos reais, interpretações ou experiências anteriores. Não pressupõe uma resposta.",
+        "frase": ""
+      },
+      {
+        "id": "b",
+        "label": "Dizer que ela já está pronta para se libertar dessas expectativas.",
+        "analysis": "Essa formulação sugere uma condição psicológica e uma solução sem conhecer suficientemente as circunstâncias. Pode ainda minimizar riscos familiares, materiais ou relacionais.",
+        "frase": ""
+      },
+      {
+        "id": "c",
+        "label": "Perguntar quais expectativas foram efetivamente expressas e por quem.",
+        "analysis": "A pergunta ajuda a distinguir exigências explícitas, expectativas inferidas e diferentes relações familiares, sem presumir que qualquer delas seja verdadeira ou falsa.",
+        "frase": ""
+      }
+    ]
+  },
+  {
+    "path": "parte-04-semiotica/4.07-semiotica-na-midia.md",
+    "anchor": "11. Uma aplicação prática: como analisar um título antes de utilizá-lo?",
+    "prompt": "Seleciona um título para examinar seu enquadramento.",
+    "defaultId": "a",
+    "options": [
+      {
+        "id": "a",
+        "label": "Por que às vezes continuamos pedindo opiniões?",
+        "analysis": "Enquadramento: Apresenta um comportamento a ser investigado, sem atribuir de antemão uma causa ou intenção.\n\nLimite ou risco: O título ainda é amplo; o desenvolvimento do vídeo precisará esclarecer quando essa busca é útil e quando pode se tornar repetitiva."
+      },
+      {
+        "id": "b",
+        "label": "Quando pedir conselhos deixa de ajudar",
+        "analysis": "Enquadramento: Direciona a atenção para a diferença entre aconselhamento útil e situações em que novas opiniões já não esclarecem a decisão.\n\nLimite ou risco: A formulação exige que o vídeo estabeleça critérios para reconhecer essa diferença."
+      },
+      {
+        "id": "c",
+        "label": "As pessoas estão decidindo sua vida por você",
+        "analysis": "Enquadramento: Sugere que outras pessoas exercem controle sobre as decisões do espectador.\n\nLimite ou risco: Pode atribuir intenções e relações de poder que não foram demonstradas, além de prometer uma denúncia que o vídeo não pretende desenvolver."
+      }
+    ]
+  },
+  {
+    "path": "parte-04-semiotica/4.08-aplicacao-critica-da-semiotica.md",
+    "anchor": "11. Um pequeno exercício de revisão editorial",
+    "prompt": "Escolhe uma formulação para analisar.",
+    "defaultId": "a",
+    "options": [
+      {
+        "id": "a",
+        "label": "Uma dificuldade revela quem realmente somos.",
+        "analysis": "A frase transforma um acontecimento particular numa conclusão ampla sobre identidade. Precisaria de justificativa e provavelmente não expressa a distinção que desejamos investigar.",
+        "frase": "Uma dificuldade revela quem realmente somos."
+      },
+      {
+        "id": "b",
+        "label": "Às vezes, uma dificuldade acaba participando da maneira como avaliamos nossa própria capacidade.",
+        "analysis": "A formulação delimita o fenômeno e permite examinar as condições em que uma experiência pode influenciar uma avaliação pessoal. Ainda é uma proposição que pode exigir sustentação conforme o desenvolvimento do vídeo.",
+        "frase": "Às vezes, uma dificuldade acaba participando da maneira como avaliamos nossa própria capacidade."
+      },
+      {
+        "id": "c",
+        "label": "A mente transforma todos os fracassos em crenças limitantes.",
+        "analysis": "A frase apresenta um mecanismo psicológico generalizado e utiliza um conceito que precisaria de definição e evidências. Também trata todas as experiências de fracasso como equivalentes.",
+        "frase": "A mente transforma todos os fracassos em crenças limitantes."
+      }
+    ]
+  },
+  {
+    "path": "parte-04-semiotica/4.02-simbolos-e-significados.md",
+    "anchor": "10. Uma atividade de interpretação simbólica",
+    "prompt": "Escolhe uma perspectiva para examinar a imagem.",
+    "defaultId": "cultural",
+    "options": [
+      {
+        "id": "cultural",
+        "label": "Significado cultural",
+        "analysis": "Uma porta pode estar associada a passagem, acesso, privacidade ou mudança em determinados contextos culturais. Precisamos examinar quais convenções sustentam cada leitura."
+      },
+      {
+        "id": "historica",
+        "label": "Significado histórico",
+        "analysis": "Podemos investigar como portas e limiares foram utilizados em rituais, obras literárias, arquitetura e representações religiosas de diferentes períodos, sem pressupor que todos compartilhem um significado."
+      },
+      {
+        "id": "pessoal",
+        "label": "Significado pessoal",
+        "analysis": "Uma porta semelhante pode recordar a casa da infância, uma mudança de cidade ou uma experiência difícil. O sentido particular não pode ser conhecido sem informações sobre a pessoa."
+      },
+      {
+        "id": "autoral",
+        "label": "Significado construído pela autora",
+        "analysis": "O roteiro pode desenvolver a porta como metáfora de reconhecimento interior. O conteúdo da obra ajuda a delimitar essa interpretação entre outras possíveis."
+      }
+    ]
+  },
+  {
+    "path": "parte-04-semiotica/4.03-metaforas-e-pensamento.md",
+    "anchor": "10. Um exercício de escrita: a mesma ideia com diferentes metáforas",
+    "prompt": "Seleciona uma metáfora para examinar.",
+    "defaultId": "caminho",
+    "options": [
+      {
+        "id": "caminho",
+        "label": "A decisão como caminho",
+        "frase": "Ouvi tantas opiniões que já não sei para qual direção seguir.",
+        "analysis": "O que a metáfora destaca: Destaca a existência de alternativas e a dificuldade de escolher uma direção.\n\nO que pode deixar de fora: Pode sugerir que existe um caminho certo previamente definido ou que a decisão precisa conduzir a um destino único."
+      },
+      {
+        "id": "peso",
+        "label": "A decisão como peso",
+        "frase": "Depois de ouvir todo mundo, fiquei carregando expectativas que nem sei se são minhas.",
+        "analysis": "O que a metáfora destaca: Destaca as exigências percebidas e a possível dificuldade de distinguir expectativas pessoais e alheias.\n\nO que pode deixar de fora: Pode tratar todas as opiniões como cargas negativas, mesmo quando algumas oferecem informações relevantes."
+      },
+      {
+        "id": "ruido",
+        "label": "A decisão como sinal entre ruídos",
+        "frase": "Recebi tantas opiniões que já não consigo distinguir o que realmente penso.",
+        "analysis": "O que a metáfora destaca: Destaca uma dificuldade de diferenciação entre interpretações, informações e critérios.\n\nO que pode deixar de fora: Pode sugerir que toda influência externa constitui interferência e que existe uma opinião pessoal inteiramente independente das relações."
+      }
+    ]
+  },
+  {
+    "path": "parte-04-semiotica/4.04-arquetipos-e-narrativas.md",
+    "anchor": "10. Um exercício: identificar uma função narrativa sem transformar pessoas em arquétipos",
+    "prompt": "Escolhe uma interpretação para examinar.",
+    "defaultId": "funcao",
+    "options": [
+      {
+        "id": "funcao",
+        "label": "A professora desempenha uma função narrativa de orientação.",
+        "analysis": "Essa é uma análise narrativa delimitada. A professora oferece orientação numa determinada situação e, por isso, pode desempenhar uma função semelhante à de mentora."
+      },
+      {
+        "id": "psicologia",
+        "label": "A professora manifesta um arquétipo psicológico universal.",
+        "analysis": "A cena não permite concluir que a professora personifica uma estrutura inconsciente universal. Para sustentar essa afirmação, precisaríamos de evidências que o relato não oferece."
+      },
+      {
+        "id": "personalidade",
+        "label": "A professora pertence ao tipo de personalidade da mentora.",
+        "analysis": "Desempenhar a função de mentora numa história não demonstra que essa seja a personalidade essencial da professora nem determina como ela age em outras relações."
+      }
+    ]
+  },
+  {
+    "type": "worksheet",
+    "path": "parte-03-oralidade/3.06-nervosismo-diante-da-camera.md",
+    "anchor": "Uma ficha breve para distinguir experiência e resultado",
+    "prompt": "Observações sobre uma gravação",
+    "caption": "Registro privado de autoavaliação. Não mede gravidade da ansiedade nem substitui avaliação profissional.",
+    "fields": [
+      {
+        "key": "felt",
+        "type": "radio",
+        "label": "O que percebi durante a fala?",
+        "defaultId": "nao-observei",
+        "options": [
+          {
+            "id": "nao-observei",
+            "label": "Não observei nervosismo relevante"
+          },
+          {
+            "id": "percebi",
+            "label": "Percebi nervosismo, mas consegui continuar"
+          },
+          {
+            "id": "interrompi",
+            "label": "Interrompi a tomada"
+          }
+        ]
+      },
+      {
+        "key": "result",
+        "type": "radio",
+        "label": "O que encontrei ao conferir a gravação?",
+        "defaultId": "nao-avaliado",
+        "options": [
+          {
+            "id": "nao-avaliado",
+            "label": "Ainda não avaliei"
+          },
+          {
+            "id": "adequado",
+            "label": "O argumento ficou suficientemente claro e fiel"
+          },
+          {
+            "id": "ajuste",
+            "label": "Identifiquei um problema específico a corrigir"
+          }
+        ]
+      },
+      {
+        "key": "note",
+        "type": "textarea",
+        "label": "Qual ajuste concreto é necessário, se houver?",
+        "placeholder": "Ex.: repetir a conclusão porque omiti a expressão 'por si só'."
+      }
+    ]
+  },
+  {
+    "type": "worksheet",
+    "path": "parte-03-oralidade/3.09-edicao-e-ritmo.md",
+    "anchor": "Uma ficha comparativa",
+    "prompt": "Comparação de edições",
+    "caption": "Instrumento editorial de comparação; não mede cientificamente a compreensão.",
+    "fields": [
+      {
+        "key": "best",
+        "type": "radio",
+        "label": "Qual versão permitiu acompanhar melhor o pensamento?",
+        "defaultId": "B",
+        "options": [
+          {
+            "id": "A",
+            "label": "A — Edição mínima"
+          },
+          {
+            "id": "B",
+            "label": "B — Edição seletiva"
+          },
+          {
+            "id": "C",
+            "label": "C — Edição intensificada"
+          }
+        ]
+      },
+      {
+        "key": "clarity",
+        "type": "radio",
+        "label": "O que aconteceu com a compreensão?",
+        "defaultId": "Ainda não avaliei",
+        "options": [
+          {
+            "id": "Ainda não avaliei",
+            "label": "Ainda não avaliei"
+          },
+          {
+            "id": "A condensação ajudou",
+            "label": "A condensação ajudou"
+          },
+          {
+            "id": "A condensação dificultou",
+            "label": "A condensação dificultou"
+          },
+          {
+            "id": "Não percebi diferença importante",
+            "label": "Não percebi diferença importante"
+          }
+        ]
+      },
+      {
+        "key": "fidelity",
+        "type": "radio",
+        "label": "Todas as versões conservaram o sentido?",
+        "defaultId": "Ainda não avaliei",
+        "options": [
+          {
+            "id": "Ainda não avaliei",
+            "label": "Ainda não avaliei"
+          },
+          {
+            "id": "Sim",
+            "label": "Sim"
+          },
+          {
+            "id": "Não",
+            "label": "Não"
+          },
+          {
+            "id": "Preciso conferir uma passagem",
+            "label": "Preciso conferir uma passagem"
+          }
+        ]
+      },
+      {
+        "key": "reflection",
+        "type": "textarea",
+        "label": "Que corte teve maior consequência para o trecho?",
+        "placeholder": "Ex.: retirar a pausa antes da ressalva tornou a conclusão difícil de acompanhar."
+      }
+    ]
+  },
+  {
+    "type": "worksheet",
+    "path": "parte-03-oralidade/3.10-identidade-audiovisual.md",
+    "anchor": "Uma ficha de comparação",
+    "prompt": "Teste de identidade audiovisual",
+    "caption": "Registro editorial de comparação; não é avaliação científica de preferência estética.",
+    "fields": [
+      {
+        "key": "candidate",
+        "type": "radio",
+        "label": "Qual versão parece mais adequada à finalidade da passagem?",
+        "defaultId": "B",
+        "options": [
+          {
+            "id": "A",
+            "label": "A — Imagem e voz, sem recursos adicionais"
+          },
+          {
+            "id": "B",
+            "label": "B — Apoio visual para a distinção"
+          },
+          {
+            "id": "C",
+            "label": "C — Tratamento expressivo intensificado"
+          }
+        ]
+      },
+      {
+        "key": "understanding",
+        "type": "radio",
+        "label": "Consegui reconhecer uma contribuição concreta do recurso audiovisual?",
+        "defaultId": "nao",
+        "options": [
+          {
+            "id": "nao",
+            "label": "Ainda não avaliei"
+          },
+          {
+            "id": "sim",
+            "label": "Sim"
+          },
+          {
+            "id": "incerto",
+            "label": "Não tenho certeza"
+          }
+        ]
+      },
+      {
+        "key": "coherence",
+        "type": "radio",
+        "label": "A forma audiovisual corresponde ao alcance do argumento?",
+        "defaultId": "nao",
+        "options": [
+          {
+            "id": "nao",
+            "label": "Ainda não avaliei"
+          },
+          {
+            "id": "sim",
+            "label": "Sim"
+          },
+          {
+            "id": "ajustar",
+            "label": "Existe algo a ajustar"
+          }
+        ]
+      },
+      {
+        "key": "practical",
+        "type": "textarea",
+        "label": "Que elemento conservarias ou modificarias?",
+        "placeholder": "Ex.: a cartela esclareceu o contraste; a música sugeriu uma conclusão mais dramática que o texto."
+      }
+    ]
+  },
+  {
+    "type": "worksheet",
+    "path": "parte-03-oralidade/3.11-coerencia-entre-videos.md",
+    "anchor": "17. Exercício de síntese: reconhecer uma escolha, sua função e seus limites",
+    "prompt": "Registro de uma decisão audiovisual",
+    "caption": "Registro de escolhas de produção; distingue preferência, hipótese, observação e critério.",
+    "fields": [
+      {
+        "key": "aspect",
+        "type": "radio",
+        "label": "Qual característica desejas examinar?",
+        "defaultId": "cartelas",
+        "options": [
+          {
+            "id": "cartelas",
+            "label": "Cartelas e referências"
+          },
+          {
+            "id": "enquadramento",
+            "label": "Enquadramento"
+          },
+          {
+            "id": "luz",
+            "label": "Iluminação"
+          },
+          {
+            "id": "som",
+            "label": "Tratamento de som"
+          },
+          {
+            "id": "abertura",
+            "label": "Abertura e transições"
+          },
+          {
+            "id": "miniatura",
+            "label": "Miniaturas"
+          }
+        ]
+      },
+      {
+        "key": "status",
+        "type": "radio",
+        "label": "Em que se baseia a escolha?",
+        "defaultId": "hipotese",
+        "options": [
+          {
+            "id": "preferencia",
+            "label": "Numa preferência estética"
+          },
+          {
+            "id": "hipotese",
+            "label": "Numa possibilidade que ainda quero testar"
+          },
+          {
+            "id": "observacao",
+            "label": "Numa gravação que já observei"
+          },
+          {
+            "id": "criterio",
+            "label": "Num critério de qualidade ou fidelidade"
+          }
+        ]
+      },
+      {
+        "key": "observation",
+        "type": "textarea",
+        "label": "O que realmente observaste, se já houver material?",
+        "placeholder": "Ex.: na versão com cartela, a referência ficou legível."
+      },
+      {
+        "key": "reason",
+        "type": "textarea",
+        "label": "Qual é a razão para utilizar ou conservar o recurso?",
+        "placeholder": "Ex.: permitir reconhecer o estudo sem interromper a explicação oral."
+      },
+      {
+        "key": "nextDecision",
+        "type": "radio",
+        "label": "Qual decisão parece justificada neste momento?",
+        "defaultId": "testar",
+        "options": [
+          {
+            "id": "conservar",
+            "label": "Conservar por enquanto"
+          },
+          {
+            "id": "testar",
+            "label": "Experimentar outra versão"
+          },
+          {
+            "id": "revisar",
+            "label": "Revisar a escolha"
+          },
+          {
+            "id": "dispensar",
+            "label": "Dispensar o recurso"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "checklist",
+    "path": "parte-02-argumentacao/2.12-revisao-do-argumento.md",
+    "anchor": "22. Ficha de revisão intelectual — versão mínima para os roteiros",
+    "prompt": "Conferência do roteiro",
+    "caption": "As marcações ajudam na conferência, mas não demonstram que as verificações foram realizadas adequadamente.",
+    "items": [
+      {
+        "id": "q",
+        "label": "Pergunta e recorte",
+        "description": "Consigo identificar exatamente o que o roteiro investiga?"
+      },
+      {
+        "id": "a",
+        "label": "Argumento",
+        "description": "As conclusões decorrem das razões apresentadas, sem saltos importantes?"
+      },
+      {
+        "id": "f",
+        "label": "Fontes",
+        "description": "As fontes centrais foram verificadas e sustentam as afirmações atribuídas a elas?"
+      },
+      {
+        "id": "d",
+        "label": "Distinções",
+        "description": "Observações, interpretações, crenças, hipóteses e evidências estão diferenciadas?"
+      },
+      {
+        "id": "o",
+        "label": "Objeções",
+        "description": "As objeções que poderiam modificar a tese foram examinadas?"
+      },
+      {
+        "id": "l",
+        "label": "Linguagem",
+        "description": "O texto está compreensível sem eliminar ressalvas ou conceitos necessários?"
+      },
+      {
+        "id": "e",
+        "label": "Responsabilidade",
+        "description": "Cenas, relatos, pessoas e recursos persuasivos foram apresentados adequadamente?"
+      },
+      {
+        "id": "c",
+        "label": "Conclusão",
+        "description": "O fecho corresponde à contribuição efetiva do desenvolvimento?"
+      },
+      {
+        "id": "p",
+        "label": "Publicação",
+        "description": "Título, thumbnail e referências correspondem ao conteúdo que será publicado?"
+      }
+    ]
+  },
+  {
+    "type": "checklist",
+    "path": "parte-03-oralidade/3.12-revisao-para-publicacao.md",
+    "anchor": "16. Exercício final da Parte III — Conferência de prontidão editorial",
+    "prompt": "Conferência final",
+    "caption": "Instrumento editorial, sem certificação automática de que um vídeo está pronto.",
+    "items": [
+      {
+        "id": "question",
+        "label": "A pergunta central e o percurso do argumento podem ser reconhecidos.",
+        "description": ""
+      },
+      {
+        "id": "claims",
+        "label": "As afirmações relevantes foram conferidas, corrigidas ou devidamente delimitadas.",
+        "description": ""
+      },
+      {
+        "id": "script",
+        "label": "A gravação conserva as distinções importantes do roteiro.",
+        "description": ""
+      },
+      {
+        "id": "audio",
+        "label": "O arquivo final possui áudio inteligível nas passagens necessárias.",
+        "description": ""
+      },
+      {
+        "id": "image",
+        "label": "Imagem, luz e elementos visuais estão suficientemente adequados.",
+        "description": ""
+      },
+      {
+        "id": "edit",
+        "label": "A edição não retirou informações nem criou relações enganosas.",
+        "description": ""
+      },
+      {
+        "id": "rights",
+        "label": "Direitos de uso, privacidade e consentimentos pertinentes foram examinados.",
+        "description": ""
+      },
+      {
+        "id": "title",
+        "label": "O título e a miniatura correspondem ao conteúdo.",
+        "description": ""
+      },
+      {
+        "id": "final",
+        "label": "O arquivo exportado foi reproduzido e conferido.",
+        "description": ""
+      },
+      {
+        "id": "captions",
+        "label": "As legendas existentes foram revisadas, e a situação das legendas pendentes foi considerada.",
+        "description": ""
+      },
+      {
+        "id": "settings",
+        "label": "As configurações do YouTube Studio pertinentes ao vídeo foram revisadas.",
+        "description": ""
+      },
+      {
+        "id": "visibility",
+        "label": "A visibilidade selecionada corresponde à decisão de publicação.",
+        "description": ""
+      }
+    ]
+  }
+]

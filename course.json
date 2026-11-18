@@ -1,0 +1,552 @@
+{
+  "version": 2,
+  "parts": [
+    {
+      "number": 1,
+      "name": "Fundamentos da comunicação",
+      "subtitle": "Fundamentos e construção do significado"
+    },
+    {
+      "number": 2,
+      "name": "Argumentação",
+      "subtitle": "Argumentação, evidências e responsabilidade"
+    },
+    {
+      "number": 3,
+      "name": "Oralidade e vídeo",
+      "subtitle": "Preparação, gravação e edição"
+    },
+    {
+      "number": 4,
+      "name": "Semiótica e interpretação",
+      "subtitle": "Semiótica, metáforas e mídia"
+    },
+    {
+      "number": 5,
+      "name": "Autoria e voz própria",
+      "subtitle": "Escrita, referências e colaboração com IA"
+    }
+  ],
+  "lessons": [
+    {
+      "code": "1.1",
+      "title": "Comunicação e significado",
+      "path": "parte-01-fundamentos/1.01-comunicacao-e-significado.md",
+      "part": 1,
+      "originalTitle": "O que acontece quando comunicamos uma ideia?",
+      "aliases": [
+        "parte-01-fundamentos/1.1.md"
+      ]
+    },
+    {
+      "code": "1.2",
+      "title": "Elementos da comunicação",
+      "path": "parte-01-fundamentos/1.02-elementos-da-comunicacao.md",
+      "part": 1,
+      "originalTitle": "Os elementos da comunicação: o que acontece entre quem fala e quem escuta?",
+      "aliases": [
+        "parte-01-fundamentos/1.2.md"
+      ]
+    },
+    {
+      "code": "1.3",
+      "title": "Mal-entendidos",
+      "path": "parte-01-fundamentos/1.03-mal-entendidos.md",
+      "part": 1,
+      "originalTitle": "Como nasce um mal-entendido? Contexto, inferência e construção de significado",
+      "aliases": [
+        "parte-01-fundamentos/1.3.md"
+      ]
+    },
+    {
+      "code": "1.4",
+      "title": "Atos de fala",
+      "path": "parte-01-fundamentos/1.04-atos-de-fala.md",
+      "part": 1,
+      "originalTitle": "O que fazemos com as palavras? A teoria dos atos de fala",
+      "aliases": [
+        "parte-01-fundamentos/1.4.md"
+      ]
+    },
+    {
+      "code": "1.5",
+      "title": "Linguagem e relações",
+      "path": "parte-01-fundamentos/1.05-linguagem-e-relacoes.md",
+      "part": 1,
+      "originalTitle": "Como a linguagem estabelece relações? Pronomes, autoridade, proximidade e posição do interlocutor",
+      "aliases": [
+        "parte-01-fundamentos/1.5.md"
+      ]
+    },
+    {
+      "code": "1.6",
+      "title": "Discordância e respeito",
+      "path": "parte-01-fundamentos/1.06-discordancia-e-respeito.md",
+      "part": 1,
+      "originalTitle": "Como discordar sem desqualificar? Argumentação, respeito e honestidade intelectual",
+      "aliases": [
+        "parte-01-fundamentos/1.6.md"
+      ]
+    },
+    {
+      "code": "1.7",
+      "title": "Escuta e compreensão",
+      "path": "parte-01-fundamentos/1.07-escuta-e-compreensao.md",
+      "part": 1,
+      "originalTitle": "O que significa realmente escutar alguém? Atenção, compreensão, empatia e abertura ao outro",
+      "aliases": [
+        "parte-01-fundamentos/1.7.md"
+      ]
+    },
+    {
+      "code": "1.8",
+      "title": "Perguntas e diálogo",
+      "path": "parte-01-fundamentos/1.08-perguntas-e-dialogo.md",
+      "part": 1,
+      "originalTitle": "A arte de perguntar: como uma pergunta modifica uma conversa?",
+      "aliases": [
+        "parte-01-fundamentos/1.8.md"
+      ]
+    },
+    {
+      "code": "1.9",
+      "title": "Estrutura da conversa",
+      "path": "parte-01-fundamentos/1.09-estrutura-da-conversa.md",
+      "part": 1,
+      "originalTitle": "Como uma conversa se desenvolve? Turnos, interrupções, pausas e mudanças de assunto",
+      "aliases": [
+        "parte-01-fundamentos/1.9.md"
+      ]
+    },
+    {
+      "code": "1.10",
+      "title": "Sentidos implícitos",
+      "path": "parte-01-fundamentos/1.10-sentidos-implicitos.md",
+      "part": 1,
+      "originalTitle": "O que uma conversa deixa de dizer? Subentendidos, omissões e sentidos implícitos",
+      "aliases": [
+        "parte-01-fundamentos/1.10.md"
+      ]
+    },
+    {
+      "code": "1.11",
+      "title": "Autoria e interpretação",
+      "path": "parte-01-fundamentos/1.11-autoria-e-interpretacao.md",
+      "part": 1,
+      "originalTitle": "Quem decide o significado de uma mensagem? Autoria, público e interpretação",
+      "aliases": [
+        "parte-01-fundamentos/1.11.md"
+      ]
+    },
+    {
+      "code": "1.12",
+      "title": "Enquadramento da mensagem",
+      "path": "parte-01-fundamentos/1.12-enquadramento-da-mensagem.md",
+      "part": 1,
+      "originalTitle": "Como o enquadramento modifica aquilo que compreendemos? Seleção, relevância e responsabilidade na comunicação",
+      "aliases": [
+        "parte-01-fundamentos/1.12.md"
+      ]
+    },
+    {
+      "code": "2.1",
+      "title": "Retórica e argumentação",
+      "path": "parte-02-argumentacao/2.01-retorica-e-argumentacao.md",
+      "part": 2,
+      "originalTitle": "O que torna uma afirmação convincente? Retórica, evidência e argumentação",
+      "aliases": [
+        "parte-02-argumentacao/2.1.md"
+      ]
+    },
+    {
+      "code": "2.2",
+      "title": "Estrutura do argumento",
+      "path": "parte-02-argumentacao/2.02-estrutura-do-argumento.md",
+      "part": 2,
+      "originalTitle": "Como sabemos se um argumento é bom? Premissas, inferências e conclusões",
+      "aliases": [
+        "parte-02-argumentacao/2.2.md"
+      ]
+    },
+    {
+      "code": "2.3",
+      "title": "Falácias e vieses",
+      "path": "parte-02-argumentacao/2.03-falacias-e-vieses.md",
+      "part": 2,
+      "originalTitle": "Por que aceitamos argumentos ruins? Falácias, atalhos cognitivos e erros de raciocínio",
+      "aliases": [
+        "parte-02-argumentacao/2.3.md"
+      ]
+    },
+    {
+      "code": "2.4",
+      "title": "Fontes e evidências",
+      "path": "parte-02-argumentacao/2.04-fontes-e-evidencias.md",
+      "part": 2,
+      "originalTitle": "Como reconhecer evidências confiáveis? Fontes, pesquisas e graus de certeza",
+      "aliases": [
+        "parte-02-argumentacao/2.4.md"
+      ]
+    },
+    {
+      "code": "2.5",
+      "title": "Construção da tese",
+      "path": "parte-02-argumentacao/2.05-construcao-da-tese.md",
+      "part": 2,
+      "originalTitle": "Como construir uma tese? Afirmação central, justificativas e objeções",
+      "aliases": [
+        "parte-02-argumentacao/2.5.md"
+      ]
+    },
+    {
+      "code": "2.6",
+      "title": "Progressão argumentativa",
+      "path": "parte-02-argumentacao/2.06-progressao-argumentativa.md",
+      "part": 2,
+      "originalTitle": "Como desenvolver uma ideia sem perder o fio? Progressão argumentativa, exemplos e analogias",
+      "aliases": [
+        "parte-02-argumentacao/2.6.md"
+      ]
+    },
+    {
+      "code": "2.7",
+      "title": "Narrativa e argumentação",
+      "path": "parte-02-argumentacao/2.07-narrativa-e-argumentacao.md",
+      "part": 2,
+      "originalTitle": "Como uma história sustenta uma ideia? Narrativa, identificação e argumentação",
+      "aliases": [
+        "parte-02-argumentacao/2.7.md"
+      ]
+    },
+    {
+      "code": "2.8",
+      "title": "Clareza conceitual",
+      "path": "parte-02-argumentacao/2.08-clareza-conceitual.md",
+      "part": 2,
+      "originalTitle": "Como explicar ideias complexas sem perder a precisão? Conceitos, definições e linguagem acessível",
+      "aliases": [
+        "parte-02-argumentacao/2.8.md"
+      ]
+    },
+    {
+      "code": "2.9",
+      "title": "Comunicação de incertezas",
+      "path": "parte-02-argumentacao/2.09-comunicacao-de-incertezas.md",
+      "part": 2,
+      "originalTitle": "Como comunicar incertezas sem enfraquecer uma ideia? Nuances, ressalvas e graus de confiança",
+      "aliases": [
+        "parte-02-argumentacao/2.9.md"
+      ]
+    },
+    {
+      "code": "2.10",
+      "title": "Conclusão do argumento",
+      "path": "parte-02-argumentacao/2.10-conclusao-do-argumento.md",
+      "part": 2,
+      "originalTitle": "Como concluir um argumento sem encerrar o pensamento? Síntese, implicações e fechos abertos",
+      "aliases": [
+        "parte-02-argumentacao/2.10.md"
+      ]
+    },
+    {
+      "code": "2.11",
+      "title": "Ética da persuasão",
+      "path": "parte-02-argumentacao/2.11-etica-da-persuasao.md",
+      "part": 2,
+      "originalTitle": "A ética da persuasão: como defender uma ideia sem manipular o público?",
+      "aliases": [
+        "parte-02-argumentacao/2.11.md"
+      ]
+    },
+    {
+      "code": "2.12",
+      "title": "Revisão do argumento",
+      "path": "parte-02-argumentacao/2.12-revisao-do-argumento.md",
+      "part": 2,
+      "originalTitle": "Como revisar um argumento antes de publicá-lo? Coerência, evidências e responsabilidade editorial",
+      "aliases": [
+        "parte-02-argumentacao/2.12.md"
+      ]
+    },
+    {
+      "code": "3.1",
+      "title": "Perspectiva e voz autoral",
+      "path": "parte-03-oralidade/3.01-perspectiva-e-voz-autoral.md",
+      "part": 3,
+      "originalTitle": "O que constitui uma voz autoral? Perspectiva, linguagem e identidade discursiva",
+      "aliases": [
+        "parte-03-oralidade/3.1.md"
+      ]
+    },
+    {
+      "code": "3.2",
+      "title": "Escrita para a fala",
+      "path": "parte-03-oralidade/3.02-escrita-para-a-fala.md",
+      "part": 3,
+      "originalTitle": "Como escrever para ser ouvido? Oralidade, sintaxe e unidades de pensamento",
+      "aliases": [
+        "parte-03-oralidade/3.2.md"
+      ]
+    },
+    {
+      "code": "3.3",
+      "title": "Expressividade vocal",
+      "path": "parte-03-oralidade/3.03-expressividade-vocal.md",
+      "part": 3,
+      "originalTitle": "Como usar a voz sem representar um personagem? Entonação, ritmo e expressividade",
+      "aliases": [
+        "parte-03-oralidade/3.3.md"
+      ]
+    },
+    {
+      "code": "3.4",
+      "title": "Comunicação diante da câmera",
+      "path": "parte-03-oralidade/3.04-comunicacao-diante-da-camera.md",
+      "part": 3,
+      "originalTitle": "Como falar para a câmera sem perder a naturalidade? Olhar, gestos e relação com o espectador",
+      "aliases": [
+        "parte-03-oralidade/3.4.md"
+      ]
+    },
+    {
+      "code": "3.5",
+      "title": "Preparação e ensaio",
+      "path": "parte-03-oralidade/3.05-preparacao-e-ensaio.md",
+      "part": 3,
+      "originalTitle": "Como ensaiar sem decorar nem improvisar tudo? Preparação, familiaridade e liberdade de fala",
+      "aliases": [
+        "parte-03-oralidade/3.5.md"
+      ]
+    },
+    {
+      "code": "3.6",
+      "title": "Nervosismo diante da câmera",
+      "path": "parte-03-oralidade/3.06-nervosismo-diante-da-camera.md",
+      "part": 3,
+      "originalTitle": "Como lidar com o nervosismo diante da câmera? Ansiedade de desempenho, atenção e adaptação",
+      "aliases": [
+        "parte-03-oralidade/3.6.md"
+      ]
+    },
+    {
+      "code": "3.7",
+      "title": "Revisão da gravação",
+      "path": "parte-03-oralidade/3.07-revisao-da-gravacao.md",
+      "part": 3,
+      "originalTitle": "Como avaliar a própria gravação sem transformar a revisão em autocrítica? Feedback, critérios e aperfeiçoamento",
+      "aliases": [
+        "parte-03-oralidade/3.7.md"
+      ]
+    },
+    {
+      "code": "3.8",
+      "title": "Gravação em partes",
+      "path": "parte-03-oralidade/3.08-gravacao-em-partes.md",
+      "part": 3,
+      "originalTitle": "Como gravar em partes sem perder a continuidade? Tomadas, transições e coerência de apresentação",
+      "aliases": [
+        "parte-03-oralidade/3.8.md"
+      ]
+    },
+    {
+      "code": "3.9",
+      "title": "Edição e ritmo",
+      "path": "parte-03-oralidade/3.09-edicao-e-ritmo.md",
+      "part": 3,
+      "originalTitle": "Como editar sem apagar o pensamento? Ritmo, pausas e escolhas de montagem",
+      "aliases": [
+        "parte-03-oralidade/3.9.md"
+      ]
+    },
+    {
+      "code": "3.10",
+      "title": "Identidade audiovisual",
+      "path": "parte-03-oralidade/3.10-identidade-audiovisual.md",
+      "part": 3,
+      "originalTitle": "Como construir uma identidade audiovisual sem repetir uma fórmula? Consistência estética, cenário, som e linguagem",
+      "aliases": [
+        "parte-03-oralidade/3.10.md"
+      ]
+    },
+    {
+      "code": "3.11",
+      "title": "Coerência entre vídeos",
+      "path": "parte-03-oralidade/3.11-coerencia-entre-videos.md",
+      "part": 3,
+      "originalTitle": "Como transformar escolhas individuais numa linguagem autoral? Coerência entre vídeos, evolução estética e critérios de produção",
+      "aliases": [
+        "parte-03-oralidade/3.11.md"
+      ]
+    },
+    {
+      "code": "3.12",
+      "title": "Revisão para publicação",
+      "path": "parte-03-oralidade/3.12-revisao-para-publicacao.md",
+      "part": 3,
+      "originalTitle": "Como reconhecer que um vídeo está pronto para publicação? Critérios mínimos, revisão final e decisão editorial",
+      "aliases": [
+        "parte-03-oralidade/3.12.md"
+      ]
+    },
+    {
+      "code": "4.1a",
+      "title": "Público imaginado",
+      "path": "parte-04-semiotica/4.01a-publico-imaginado.md",
+      "part": 4,
+      "originalTitle": "Para quem falamos quando falamos para uma câmera? Público imaginado, conhecimento compartilhado e limites da identificação",
+      "aliases": [
+        "parte-04-semiotica/4.1-publico-imaginado.md"
+      ]
+    },
+    {
+      "code": "4.1b",
+      "title": "Introdução à semiótica",
+      "path": "parte-04-semiotica/4.01b-introducao-a-semiotica.md",
+      "part": 4,
+      "originalTitle": "Como as coisas adquirem significado? Uma introdução à semiótica",
+      "aliases": [
+        "parte-04-semiotica/4.1-semiotica.md"
+      ]
+    },
+    {
+      "code": "4.2",
+      "title": "Símbolos e significados",
+      "path": "parte-04-semiotica/4.02-simbolos-e-significados.md",
+      "part": 4,
+      "originalTitle": "Como os símbolos adquirem significados culturais, históricos e pessoais?",
+      "aliases": [
+        "parte-04-semiotica/4.2.md"
+      ]
+    },
+    {
+      "code": "4.3",
+      "title": "Metáforas e pensamento",
+      "path": "parte-04-semiotica/4.03-metaforas-e-pensamento.md",
+      "part": 4,
+      "originalTitle": "Metáforas e pensamento: como explicar conceitos abstratos por meio de experiências familiares?",
+      "aliases": [
+        "parte-04-semiotica/4.3.md"
+      ]
+    },
+    {
+      "code": "4.4",
+      "title": "Arquétipos e narrativas",
+      "path": "parte-04-semiotica/4.04-arquetipos-e-narrativas.md",
+      "part": 4,
+      "originalTitle": "Arquétipos: de Jung às narrativas contemporâneas",
+      "aliases": [
+        "parte-04-semiotica/4.4.md"
+      ]
+    },
+    {
+      "code": "4.5",
+      "title": "PNL e evidências",
+      "path": "parte-04-semiotica/4.05-pnl-e-evidencias.md",
+      "part": 4,
+      "originalTitle": "Programação Neurolinguística: linguagem, influência e evidências científicas",
+      "aliases": [
+        "parte-04-semiotica/4.5.md"
+      ]
+    },
+    {
+      "code": "4.6",
+      "title": "Aprendizagem multimídia",
+      "path": "parte-04-semiotica/4.06-aprendizagem-multimidia.md",
+      "part": 4,
+      "originalTitle": "Aprendizagem multimídia: como combinar fala, imagens e exemplos para favorecer a compreensão?",
+      "aliases": [
+        "parte-04-semiotica/4.6.md"
+      ]
+    },
+    {
+      "code": "4.7",
+      "title": "Semiótica na mídia",
+      "path": "parte-04-semiotica/4.07-semiotica-na-midia.md",
+      "part": 4,
+      "originalTitle": "Semiótica na mídia e no marketing: como títulos, imagens e narrativas influenciam interpretações?",
+      "aliases": [
+        "parte-04-semiotica/4.7.md"
+      ]
+    },
+    {
+      "code": "4.8",
+      "title": "Aplicação crítica da semiótica",
+      "path": "parte-04-semiotica/4.08-aplicacao-critica-da-semiotica.md",
+      "part": 4,
+      "originalTitle": "Aplicação autoral: como utilizar criticamente os conhecimentos da Parte IV?",
+      "aliases": [
+        "parte-04-semiotica/4.8.md"
+      ]
+    },
+    {
+      "code": "5.1",
+      "title": "Autoria e originalidade",
+      "path": "parte-05-autoria/5.01-autoria-e-originalidade.md",
+      "part": 5,
+      "originalTitle": "O que torna uma comunicação autoral?",
+      "aliases": [
+        "parte-05-autoria/5.1.md"
+      ]
+    },
+    {
+      "code": "5.2",
+      "title": "Pensamento e linguagem",
+      "path": "parte-05-autoria/5.02-pensamento-e-linguagem.md",
+      "part": 5,
+      "originalTitle": "Como o pensamento encontra sua própria linguagem?",
+      "aliases": [
+        "parte-05-autoria/5.2.md"
+      ]
+    },
+    {
+      "code": "5.3",
+      "title": "Estilo e voz própria",
+      "path": "parte-05-autoria/5.03-estilo-e-voz-propria.md",
+      "part": 5,
+      "originalTitle": "O que é voz própria?",
+      "aliases": [
+        "parte-05-autoria/5.3.md"
+      ]
+    },
+    {
+      "code": "5.4",
+      "title": "Fórmulas e clichês",
+      "path": "parte-05-autoria/5.04-formulas-e-cliches.md",
+      "part": 5,
+      "originalTitle": "Como reconhecer fórmulas e clichês na escrita?",
+      "aliases": [
+        "parte-05-autoria/5.4.md"
+      ]
+    },
+    {
+      "code": "5.5",
+      "title": "Autoria e IA",
+      "path": "parte-05-autoria/5.05-autoria-e-ia.md",
+      "part": 5,
+      "originalTitle": "Autoria e inteligência artificial",
+      "aliases": [
+        "parte-05-autoria/5.5.md"
+      ]
+    },
+    {
+      "code": "5.6",
+      "title": "Síntese de referências",
+      "path": "parte-05-autoria/5.06-sintese-de-referencias.md",
+      "part": 5,
+      "originalTitle": "Como transformar referências em contribuição própria?",
+      "aliases": [
+        "parte-05-autoria/5.6.md"
+      ]
+    },
+    {
+      "code": "5.7",
+      "title": "Oficina de revisão autoral",
+      "path": "parte-05-autoria/5.07-oficina-de-revisao-autoral.md",
+      "part": 5,
+      "originalTitle": "Aplicação autoral: como preservar nossa contribuição intelectual?",
+      "aliases": [
+        "parte-05-autoria/5.7.md"
+      ]
+    }
+  ]
+}
