@@ -1,0 +1,10 @@
+{
+  "name": "manual-browser-checks",
+  "private": true,
+  "scripts": { "test": "node testar_navegador.cjs" },
+  "devDependencies": {
+    "playwright": "1.56.1",
+    "marked": "15.0.12",
+    "dompurify": "3.4.17"
+  }
+}

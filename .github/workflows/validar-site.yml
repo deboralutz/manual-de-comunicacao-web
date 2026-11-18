@@ -1,0 +1,58 @@
+name: Verificar edição web do Manual
+on:
+  push:
+    paths:
+      - "parte-*/**"
+      - "assets/**"
+      - "*.json"
+      - "index.html"
+      - "scripts/**"
+      - ".github/workflows/validar-site.yml"
+  pull_request:
+    paths:
+      - "parte-*/**"
+      - "assets/**"
+      - "*.json"
+      - "index.html"
+      - "scripts/**"
+      - ".github/workflows/validar-site.yml"
+  workflow_dispatch:
+jobs:
+  validar:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Obter código
+        uses: actions/checkout@v4
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Conferir aulas, links internos e recursos
+        run: python scripts/validar_site.py
+
+
+  navegador:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    permissions:
+      contents: read
+    steps:
+      - name: Obter código
+        uses: actions/checkout@v4
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Instalar dependências de teste
+        run: npm install --prefix scripts --ignore-scripts --no-audit --no-fund
+      - name: Instalar Chromium
+        run: scripts/node_modules/.bin/playwright install --with-deps chromium
+      - name: Testar navegação, atividades e telas móveis
+        run: node scripts/testar_navegador.cjs
+      - name: Guardar relatório e capturas
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: revisao-navegador
+          path: test-results/
+          retention-days: 7

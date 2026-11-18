@@ -1,0 +1,12 @@
+scripts/node_modules/
+scripts/package-lock.json
+test-results/
+
+# Arquivos locais e credenciais (não publicar)
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.key
+.DS_Store

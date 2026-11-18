@@ -237,7 +237,7 @@ async function init(){
   }));
   if(migrated)try{localStorage.setItem("manual.finished",JSON.stringify(state.finished));}catch(e){}
   updateProgress();onRoute();
- }catch(e){$("view").innerHTML="<div class='notice'><h2>Não foi possível carregar o índice</h2><p>Abra este site a partir de um servidor web. Consulte também o <a href='README.md'>índice em Markdown</a>.</p></div>";}
+ }catch(e){$("view").innerHTML="<div class='notice'><h2>Não foi possível carregar o índice</h2><p>Abra este site a partir de um servidor web. Consulte também o <a href='INDICE.md'>índice em Markdown</a>.</p></div>";}
 }
 init();
 })();
