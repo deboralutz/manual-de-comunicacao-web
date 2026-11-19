@@ -107,10 +107,8 @@ const server = http.createServer((req, res) => {
         assert.equal(await page.locator('[id=' + JSON.stringify(id) + ']').count(), 1, 'Âncora única: ' + id);
       }
       if (lesson.code === '5.3') await page.locator('.activity-card').screenshot({ path: path.join(output, 'atividade-desktop.png') });
-      if (lesson.path === 'parte-04-semiotica/4.01b-introducao-a-semiotica.md') {
-        await page.locator('.image-unavailable').first().waitFor();
-        assert.ok(await page.locator('.image-unavailable').count() > 0);
-      }
+      // A edição pública retirou imagens externas da conversa; o teste de falha dessas imagens é obsoleto.
+      assert.equal(await page.locator('.lesson-content img[src^="https://images.openai.com"]').count(), 0, lesson.path);
       report.lessons++;
     }
     report.checks.push('52 aulas abertas; todas as alternativas, fichas, checklists e visuais conferidos.');
