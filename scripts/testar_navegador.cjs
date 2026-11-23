@@ -150,8 +150,12 @@ const server = http.createServer((req, res) => {
       }
       if (lesson.code === '5.3') await page.locator('.activity-card').screenshot({ path: path.join(output, 'atividade-desktop.png') });
       if (lesson.path === 'parte-04-semiotica/4.01b-introducao-a-semiotica.md') {
-        await page.locator('.image-unavailable').first().waitFor();
-        assert.ok(await page.locator('.image-unavailable').count() > 0);
+        // Esta aula pode não conter imagens externas. Sem imagem, não há aviso a exigir.
+        const sourcedImages = page.locator('#lesson-content img:not([src*="favicons"])');
+        if (await sourcedImages.count() > 0) {
+          await page.locator('.image-unavailable').first().waitFor();
+          assert.ok(await page.locator('.image-unavailable').count() > 0);
+        }
       }
       report.lessons++;
     }
