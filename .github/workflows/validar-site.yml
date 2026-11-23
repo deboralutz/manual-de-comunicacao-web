@@ -4,6 +4,7 @@ on:
     paths:
       - "parte-*/**"
       - "assets/**"
+      - "experiencias/**"
       - "*.json"
       - "index.html"
       - "scripts/**"
