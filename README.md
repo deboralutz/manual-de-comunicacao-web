@@ -11,8 +11,12 @@ Edição web independente de um projeto de estudo sobre linguagem, comunicação
 - [Índice das 52 aulas](INDICE.md)
 - [Apresentação do projeto e decisões de design](PORTFOLIO.md)
 - [Como executar e publicar o site](PUBLICACAO.md)
+- [Piloto interativo da aula 1.3 — Uma frase, duas interpretações](experiencias/aula-1-3-mal-entendidos.html)
+- [Matriz de Design Instrucional do piloto 1.3](docs/matriz-di-aula-1-3.md)
 
 O site apresenta busca por aula ou assunto, navegação por partes, modo claro/escuro, índice interno das aulas e marcação de leituras. O progresso fica salvo **somente no navegador**, sem login ou envio de respostas.
+
+Além das 19 atividades recuperadas, a aula 1.3 possui um piloto de cenário e escrita livre em página própria, vinculado ao texto original.
 
 As atividades são exercícios didáticos, com comentários e possibilidades de revisão; não são instrumentos de avaliação validados, nem geram nota ou certificado.
 

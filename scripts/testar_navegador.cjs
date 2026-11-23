@@ -60,6 +60,48 @@ const server = http.createServer((req, res) => {
     await page.locator('#lesson-search').fill('');
     report.checks.push('Busca com e sem resultados, incluindo termo sem acento.');
 
+    // Piloto da aula 1.3: resposta, feedback, escrita livre, revisão e celular.
+    const pilot = await context.newPage();
+    pilot.on('pageerror', error => errors.push('piloto 1.3: ' + error.message));
+    await pilot.goto(base + '/experiencias/aula-1-3-mal-entendidos.html');
+    await pilot.locator('#step-label').waitFor();
+    assert.match(await pilot.locator('#step-label').innerText(), /Etapa 1 de 4/);
+    assert.equal(await pilot.locator('#check').isDisabled(), true);
+    await pilot.locator('input[name="answer"][value="1"]').check();
+    await pilot.locator('#check').click();
+    assert.match(await pilot.locator('#analysis').innerText(), /mais sustentada/);
+    await pilot.locator('#next').click();
+    assert.match(await pilot.locator('#step-label').innerText(), /Etapa 2 de 4/);
+    assert.match(await pilot.locator('#stage').innerText(), /demonstrar preocupação/);
+    await pilot.locator('input[name="answer"][value="2"]').check();
+    await pilot.locator('#check').click();
+    await pilot.locator('#next').click();
+    assert.match(await pilot.locator('#step-label').innerText(), /Etapa 3 de 4/);
+    assert.equal(await pilot.locator('#compare').isDisabled(), true);
+    const written = 'Quando disseste que eu estava quieta, o que querias dizer?';
+    await pilot.locator('#question-text').fill(written);
+    await pilot.locator('#compare').click();
+    assert.match(await pilot.locator('#comparison').innerText(), /Critérios/);
+    await pilot.locator('#back').click();
+    await pilot.locator('#next').click();
+    assert.equal(await pilot.locator('#question-text').inputValue(), written);
+    await pilot.locator('#next').click();
+    assert.match(await pilot.locator('#step-label').innerText(), /Etapa 4 de 4/);
+    await pilot.locator('input[name="answer"][value="0"]').check();
+    await pilot.locator('#check').click();
+    await pilot.locator('#next').click();
+    assert.equal(await pilot.locator('.finish').count(), 1);
+    assert.equal(await pilot.locator('#written').innerText(), written);
+    await pilot.screenshot({ path: path.join(output, 'piloto-1-3-desktop.png') });
+    await pilot.locator('#edit').click();
+    assert.equal(await pilot.locator('#question-text').inputValue(), written);
+    await pilot.setViewportSize({ width: 390, height: 844 });
+    const dimensionsPilot = await pilot.evaluate(() => ({ width: document.documentElement.clientWidth, scroll: document.documentElement.scrollWidth }));
+    assert.ok(dimensionsPilot.scroll <= dimensionsPilot.width + 1, 'Piloto 1.3 excede largura do celular');
+    await pilot.screenshot({ path: path.join(output, 'piloto-1-3-celular.png') });
+    await pilot.close();
+    report.checks.push('Piloto 1.3: quatro etapas, feedback, escrita revisável e layout móvel.');
+
     const openLesson = async lesson => {
       await page.goto(base + '/#/aula/' + encodeURIComponent(lesson.path));
       await page.locator('#lesson-content').waitFor();
@@ -108,8 +150,12 @@ const server = http.createServer((req, res) => {
       }
       if (lesson.code === '5.3') await page.locator('.activity-card').screenshot({ path: path.join(output, 'atividade-desktop.png') });
       if (lesson.path === 'parte-04-semiotica/4.01b-introducao-a-semiotica.md') {
-        await page.locator('.image-unavailable').first().waitFor();
-        assert.ok(await page.locator('.image-unavailable').count() > 0);
+        // Esta aula pode não conter imagens externas. Sem imagem, não há aviso a exigir.
+        const sourcedImages = page.locator('#lesson-content img:not([src*="favicons"])');
+        if (await sourcedImages.count() > 0) {
+          await page.locator('.image-unavailable').first().waitFor();
+          assert.ok(await page.locator('.image-unavailable').count() > 0);
+        }
       }
       report.lessons++;
     }
