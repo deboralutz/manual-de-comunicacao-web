@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Exercício interativo da Aula 1.3 do Manual de Comunicação: analisar um mal-entendido e formular uma pergunta de esclarecimento.">
+<title>Aula 1.3 — Uma frase, duas interpretações | Manual de Comunicação</title>
+<style>
+:root{color-scheme:light;--bg:#f7f8f6;--paper:#fff;--ink:#293343;--muted:#647483;--line:#dfe7e8;--accent:#496b82;--accent-light:#eaf2f5;--accent-dark:#36556c}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.7 system-ui,-apple-system,"Segoe UI",sans-serif}
+button,textarea{font:inherit}button{cursor:pointer}button:disabled{cursor:not-allowed;background:#e8edef;border-color:#ccd9df;color:#526876}
+a{color:var(--accent-dark)}:is(a,button,textarea,input):focus-visible{outline:3px solid #79a9c5;outline-offset:3px}
+.skip{position:absolute;left:12px;top:-100px;background:var(--paper);padding:10px 15px;z-index:4}.skip:focus{top:12px}
+header{background:var(--paper);border-bottom:1px solid var(--line)}.head{max-width:1150px;margin:auto;padding:15px 26px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{display:flex;gap:12px;align-items:center;text-decoration:none;color:var(--ink);font-size:13px;line-height:1.4;font-weight:700}.mark{width:42px;height:42px;border-radius:10px;background:#314b5f;color:white;display:grid;place-items:center;font:27px Georgia,serif}.back{font-size:12px;text-decoration:none}
+main{max-width:1150px;margin:auto;padding:42px 26px 65px}.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:var(--accent-dark);font-weight:700;margin:0 0 12px}
+h1{font:normal clamp(36px,5vw,56px)/1.11 Georgia,serif;letter-spacing:-.02em;margin:0 0 18px}h2{font:normal 29px/1.25 Georgia,serif;margin:0 0 18px;letter-spacing:-.01em}h3{font-size:15px;margin:0 0 8px}
+.lead{font-size:16px;max-width:790px;color:var(--muted);margin:0 0 30px}.status{display:flex;justify-content:space-between;gap:10px;font-size:12px;color:var(--muted);margin-bottom:10px}.track{height:5px;background:#dce7e9;border-radius:10px;overflow:hidden;margin-bottom:25px}.fill{height:100%;width:25%;background:var(--accent);transition:width .2s}
+.layout{display:grid;grid-template-columns:minmax(0,.88fr) minmax(0,1.12fr);gap:17px;align-items:start}.pane{background:var(--paper);border:1px solid var(--line);border-radius:15px;padding:26px;min-width:0;box-shadow:0 12px 32px rgba(20,42,60,.035)}
+.pane-label{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--accent-dark);font-weight:700;margin:0 0 14px}.pane p{margin:0 0 16px}.speech{border-left:3px solid #9bbbc9;background:#f1f5f6;border-radius:0 10px 10px 0;padding:15px 18px;margin:16px 0}.speech p:last-child{margin:0}.context{border-top:1px solid var(--line);margin-top:19px;padding-top:17px;color:var(--muted);font-size:13px}
+fieldset{border:0;padding:0;margin:0;min-width:0}legend{font-weight:700;padding-bottom:11px;font-size:15px;line-height:1.55}.option{display:flex;gap:12px;align-items:start;border:1px solid var(--line);padding:13px;border-radius:10px;margin-bottom:9px;line-height:1.5;cursor:pointer}.option:hover{border-color:#9cb5c3}.option:has(input:checked){border-color:#779bb0;background:var(--accent-light)}.option input{flex:0 0 auto;margin:3px 0 0;width:18px;height:18px;accent-color:var(--accent)}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0 0;padding-top:18px;border-top:1px solid var(--line)}.btn{min-height:42px;padding:9px 14px;background:var(--accent);color:white;border:1px solid var(--accent);border-radius:9px;font-size:13px;font-weight:700}.btn:hover:not(:disabled){background:var(--accent-dark)}.btn.secondary{color:var(--accent-dark);border-color:var(--line);background:var(--paper)}.btn.secondary:hover:not(:disabled){background:#f2f6f7}
+.feedback{border:1px solid #b5d1ca;border-radius:11px;background:#f1f7f4;padding:17px 19px;margin-top:19px;font-size:14px}.feedback h3{color:#234c42}.feedback p{margin:0 0 11px}.feedback p:last-child{margin:0}.feedback ul{padding-left:21px;margin:10px 0}.fine{font-size:12px;color:var(--muted)}
+textarea{display:block;resize:vertical;width:100%;min-height:130px;border:1px solid #afc1cb;border-radius:10px;background:white;color:var(--ink);padding:13px}.field-label{display:block;font-weight:700;margin:17px 0 10px}.step-flag{display:inline-block;border-radius:20px;background:var(--accent-light);color:var(--accent-dark);font-size:11px;font-weight:700;padding:4px 10px;margin-bottom:16px}
+.finish{max-width:750px;background:var(--paper);border:1px solid var(--line);border-radius:15px;padding:30px;margin:auto}.finish h2{font-size:38px}.artifact{white-space:pre-wrap;overflow-wrap:anywhere;background:var(--accent-light);border-radius:10px;padding:16px;margin:18px 0}
+.footer-note{font-size:12px;color:var(--muted);margin-top:24px}.footer{border-top:1px solid var(--line);padding-top:20px;margin-top:40px;font-size:12px;color:var(--muted)}[hidden]{display:none!important}
+@media(max-width:790px){main{padding:29px 16px 50px}.head{padding:12px 16px}.layout{grid-template-columns:1fr}.pane{padding:21px}.lead{font-size:14px}.status{align-items:start}h2{font-size:27px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.fill{transition:none}}
+</style>
+</head>
+<body>
+<a href="#main" class="skip">Ir para a atividade</a>
+<header><div class="head"><a class="brand" href="../#/"><span class="mark" aria-hidden="true">M</span><span>Manual de Comunicação<br><small style="font-weight:400;color:var(--muted)">Experiência de aprendizagem</small></span></a><a class="back" href="../#/aula/parte-01-fundamentos%2F1.03-mal-entendidos.md">Voltar à aula 1.3</a></div></header>
+<main id="main" tabindex="-1">
+<p class="eyebrow">Aula 1.3 · Mal-entendidos · Atividade formativa</p>
+<h1>Uma frase, duas interpretações</h1>
+<p class="lead">Examina o que foi dito, reconsidera uma interpretação quando surge novo contexto e escreve uma pergunta de esclarecimento. Esta experiência utiliza duas cenas da aula original.</p>
+<div id="progress-area"><div class="status"><span id="step-label" tabindex="-1">Etapa 1 de 4</span><span>Sem nota · respostas revisáveis</span></div><div class="track" aria-hidden="true"><div class="fill" id="fill"></div></div></div>
+<div id="stage" aria-live="off"></div>
+<p class="footer-note">A atividade é formativa. Ela não avalia personalidade nem comprova domínio de uma habilidade. As respostas permanecem apenas nesta página enquanto estiver aberta; não são enviadas a um servidor nem armazenadas permanentemente.</p>
+<div class="footer"><a href="../#/aula/parte-01-fundamentos%2F1.03-mal-entendidos.md">Retornar à aula 1.3</a> · Manual de Comunicação · Projeto educacional independente em desenvolvimento.</div>
+</main>
+<script>
+(function(){
+"use strict";
+var $=function(id){return document.getElementById(id);};
+var state={step:0,answers:[null,null,null],confirmed:[false,false,false],writing:"",compared:false,done:false};
+var questions=[
+{question:"Com base apenas nessas duas falas, qual afirmação é a mais bem sustentada?",options:[
+"A primeira amiga pretendia ofender ou corrigir a segunda.",
+"A resposta da segunda amiga sugere que ela recebeu a observação como cobrança.",
+"O tom de voz utilizado pela primeira amiga foi agressivo."],feedback:[
+"As duas falas iniciais não permitem afirmar que a primeira pessoa desejava ofender. Essa conclusão atribui uma intenção que o recorte ainda não informa.",
+"Essa é a interpretação mais sustentada pelo recorte. A reação sugere que a fala foi recebida como cobrança, mas ainda não sabemos como a primeira amiga pretendia ser compreendida.",
+"O tom da primeira fala não foi descrito. Seria necessário ouvir a conversa ou receber informações sobre essa característica antes de atribuir agressividade."],general:"Reconhecer a reação da outra pessoa não equivale a conhecer todas as causas dessa reação."},
+{question:"Depois de conhecer o restante da cena, qual análise respeita melhor as informações disponíveis?",options:[
+"A intenção de preocupação, informada pela narradora, elimina qualquer problema possível na forma da pergunta.",
+"A reação da segunda amiga demonstra que a primeira tinha intenção de humilhá-la.",
+"A intenção de preocupação e a interpretação de cobrança podem coexistir; esclarecer a formulação pode ajudar a conversa."],feedback:[
+"Uma intenção de cuidado não impede que determinada formulação seja recebida como crítica. O efeito e a escolha de palavras ainda merecem exame.",
+"O texto da cena informa precisamente uma intenção diferente: preocupação. A interpretação da segunda amiga não modifica automaticamente esse dado da narrativa.",
+"Essa análise conserva duas informações: a narradora descreve uma intenção de preocupação e a segunda amiga recebeu a frase como crítica. Reformular ou perguntar pode ajudar a esclarecer a diferença."],general:"Na cena ilustrativa, sabemos qual intenção a narradora atribuiu à primeira amiga. Numa conversa real, informações semelhantes podem exigir investigação."},
+{question:"O que a frase “Eu só estava tentando ajudar”, considerada isoladamente, nos permite concluir?",options:[
+"A pessoa apresenta sua intervenção como tentativa de ajuda, mas a frase não demonstra que ela foi adequada.",
+"Está comprovado que a pessoa agiu corretamente e que a outra reagiu mal.",
+"A outra pessoa certamente foi ofendida de propósito."],feedback:[
+"Essa conclusão corresponde à distinção examinada na seção 11 da aula. A pessoa reivindica uma intenção de ajudar, mas ainda faltam informações sobre a fala original, o contexto e seus efeitos.",
+"Uma intenção declarada não comprova que o modo de agir foi adequado nem que a reação do interlocutor foi injustificada.",
+"A frase não informa que existiu intenção de ofender. Uma reação negativa, por si só, não demonstra o propósito de quem falou."],general:"Declaração de intenção, interpretação e adequação da conduta são dimensões relacionadas, mas diferentes."}
+];
+var scenes=[
+'<p class="pane-label">A cena · recorte inicial</p><h2>O que foi dito?</h2><p>Uma das amigas observa:</p><div class="speech"><p>— Tu estás muito quieta hoje.</p><p>— Não tenho obrigação de ficar conversando o tempo todo.</p></div><p class="context">Nesta etapa, aparecem somente as duas primeiras falas. O texto original apresenta mais informações, que serão retomadas a seguir.</p>',
+'<p class="pane-label">A cena · contexto ampliado</p><h2>O que mais sabemos?</h2><p>No texto original, a narradora informa que a primeira amiga pretendia <strong>demonstrar preocupação</strong>. A conversa continua:</p><div class="speech"><p>— Eu só queria saber se estava tudo bem.</p><p>— Mas tu falaste como se tivesse alguma coisa errada comigo.</p></div><p class="context">A intenção descrita na narrativa é informação adicional. Ela não apaga o modo como a observação foi interpretada pela segunda amiga.</p>',
+'<p class="pane-label">Uma possibilidade de reparo</p><h2>O que poderíamos perguntar?</h2><p>Na seção 7, a aula trata dos <em>reparos conversacionais</em>: recursos para lidar com dificuldades de compreensão durante uma interação.</p><div class="speech"><p>— Tu estás muito quieta hoje.</p><p>— Como assim?</p><p>— Quis dizer que percebi que falaste pouco. Perguntei porque fiquei preocupada.</p></div><p class="context">A pergunta abre uma oportunidade de esclarecimento, sem garantir acordo nem exigir que alguém negue seu desconforto.</p>',
+'<p class="pane-label">Transferência · outra situação da aula</p><h2>Uma intenção declarada basta?</h2><p>Na seção 11, a aula analisa uma frase dita depois de um comentário que a outra pessoa considerou invasivo.</p><div class="speech"><p>— Eu só estava tentando ajudar.</p></div><p class="context">Não sabemos o que foi dito antes, o tom, o contexto nem se a declaração descreve integralmente a intenção real.</p>'
+];
+function button(id,label,secondary,disabled){return '<button id="'+id+'" type="button" class="btn'+(secondary?' secondary':'')+'"'+(disabled?' disabled':'')+'>'+label+'</button>';}
+function go(n){state.step=n;render();$("step-label").focus({preventScroll:true});$("step-label").scrollIntoView({block:"start"});}
+function showAnalysis(i){
+ var target=$("analysis");target.replaceChildren();
+ var panel=document.createElement("div");panel.className="feedback";panel.setAttribute("role","status");
+ var h=document.createElement("h3");h.textContent="Análise comentada";
+ var p=document.createElement("p");p.textContent=questions[i].feedback[state.answers[i]];
+ var note=document.createElement("p");note.className="fine";note.textContent=questions[i].general;
+ panel.append(h,p,note);target.append(panel);
+}
+function showCriteria(){
+ var target=$("comparison");target.replaceChildren();
+ var panel=document.createElement("div");panel.className="feedback";panel.setAttribute("role","status");
+ panel.innerHTML='<h3>Critérios para conferir tua pergunta</h3><ul><li>Procura esclarecer o sentido da fala ou o que foi compreendido?</li><li>Evita presumir hostilidade ou uma intenção de ferir?</li><li>Permite à outra pessoa acrescentar contexto?</li></ul><p>Uma possibilidade, entre outras: “Quando disseste que eu estava quieta, o que querias dizer?” A própria aula também apresenta “Como assim?” como abertura para um esclarecimento.</p><p class="fine">Podes rever e editar tua resposta. A comparação não é uma correção automática.</p>';
+ target.append(panel);
+ var actions=document.createElement("div");actions.className="actions";
+ actions.innerHTML=button("next","Próxima etapa",false,false);target.append(actions);
+ $("next").addEventListener("click",function(){if(state.writing.trim()&&state.compared)go(3);});
+}
+function render(){
+ if(state.done){finish();return;}
+ $("progress-area").hidden=false;
+ var s=state.step,idx=s===3?2:s,q=questions[idx];
+ $("step-label").textContent="Etapa "+(s+1)+" de 4 · "+["Observar","Reconsiderar","Formular","Transferir"][s];
+ $("fill").style.width=((s+1)*25)+"%";
+ var right='<p class="pane-label">Atividade formativa</p><span class="step-flag">'+(s+1)+' / 4</span>';
+ if(s===2){
+  right+='<h2>Uma pergunta esclarecedora</h2><p>Escreve uma pergunta que a segunda amiga poderia fazer para esclarecer o sentido da observação sem presumir uma intenção não estabelecida.</p><label class="field-label" for="question-text">Minha pergunta</label><textarea id="question-text" maxlength="1500" placeholder="Que pergunta ajudaria a esclarecer o que foi comunicado?"></textarea><p class="fine">Tu mesma conferirás a pergunta com critérios. Não há correção automática.</p><div class="actions">'+button("back","Voltar",true,false)+button("compare","Comparar com critérios",false,!state.writing.trim())+'</div><div id="comparison"></div>';
+ }else{
+  right+='<h2>'+["Analisar o recorte","Rever uma interpretação","","Aplicar a distinção"][s]+'</h2><fieldset><legend>'+q.question+'</legend>';
+  q.options.forEach(function(label,k){right+='<label class="option"><input type="radio" name="answer" value="'+k+'"'+(state.answers[idx]===k?' checked':'')+'><span>'+label+'</span></label>';});
+  right+='</fieldset><div class="actions">'+(s?button("back","Voltar",true,false):"")+button("check","Conferir análise",false,state.answers[idx]===null)+button("next",s===3?"Encerrar exercício":"Próxima etapa",false,!state.confirmed[idx])+'</div><div id="analysis" aria-live="polite" aria-atomic="true"></div>';
+ }
+ $("stage").innerHTML='<div class="layout"><section class="pane">'+scenes[s]+'</section><section class="pane">'+right+'</section></div>';
+ if(s===2){
+  $("question-text").value=state.writing;
+  $("question-text").addEventListener("input",function(e){state.writing=e.target.value;$("compare").disabled=!state.writing.trim();if(state.compared)showCriteria();});
+  $("compare").addEventListener("click",function(){if(!state.writing.trim())return;state.compared=true;showCriteria();});
+  $("back").addEventListener("click",function(){go(1);});if(state.compared)showCriteria();
+ }else{
+  document.querySelectorAll('input[name="answer"]').forEach(function(input){input.addEventListener("change",function(){
+   state.answers[idx]=Number(input.value);state.confirmed[idx]=false;$("check").disabled=false;$("next").disabled=true;$("analysis").replaceChildren();
+  });});
+  $("check").addEventListener("click",function(){if(state.answers[idx]===null)return;state.confirmed[idx]=true;showAnalysis(idx);$("next").disabled=false;});
+  $("next").addEventListener("click",function(){if(!state.confirmed[idx])return;if(s===3){state.done=true;finish();}else go(s+1);});
+  if(s)$("back").addEventListener("click",function(){go(s-1);});
+  if(state.confirmed[idx])showAnalysis(idx);
+ }
+}
+function finish(){
+ $("progress-area").hidden=true;
+ $("stage").innerHTML='<section class="finish"><p class="eyebrow">Percurso concluído</p><h2 id="finish-title" tabindex="-1">A investigação continua</h2><p>Examinaste duas situações da aula e formulaste uma pergunta de esclarecimento. Esta prática não atribui nota nem declara domínio de uma habilidade.</p><h3>A pergunta que formulaste</h3><div id="written" class="artifact"></div><p>Queres copiar a pergunta ou revisá-la?</p><div class="actions">'+button("edit","Revisar pergunta",true,false)+button("copy","Copiar pergunta",false,false)+button("restart","Refazer atividade",true,false)+'</div><div id="copy-feedback" role="status" class="fine" aria-live="polite"></div></section>';
+ $("written").textContent=state.writing.trim();
+ $("edit").addEventListener("click",function(){state.done=false;go(2);});
+ $("restart").addEventListener("click",function(){state={step:0,answers:[null,null,null],confirmed:[false,false,false],writing:"",compared:false,done:false};render();$("step-label").focus();});
+ $("copy").addEventListener("click",async function(){
+  var target=$("copy-feedback"),value=state.writing.trim();if(!value)return;
+  try{if(!navigator.clipboard||!navigator.clipboard.writeText)throw Error("clipboard");await navigator.clipboard.writeText(value);target.textContent="Pergunta copiada.";}
+  catch(e){target.replaceChildren();var label=document.createElement("label");label.textContent="Seleciona e copia a pergunta abaixo:";label.htmlFor="copy-text";var box=document.createElement("textarea");box.id="copy-text";box.readOnly=true;box.rows=3;box.value=value;target.append(label,box);box.focus();box.select();}
+ });
+ $("finish-title").focus({preventScroll:true});$("stage").scrollIntoView({block:"start"});
+}
+render();
+})();
+</script>
+</body>
+</html>
