@@ -33,7 +33,7 @@ O feedback é exibido **depois** da escolha; a pessoa pode mudar de resposta e c
 
 ## Decisões de implementação
 
-Para esta primeira publicação, a atividade funciona em **página HTML independente vinculada à aula 1.3**, com link de volta ao Manual. A decisão evita alterar o renderizador geral de \`activities.json\` e preserva as 19 atividades já existentes. O protótipo utiliza HTML/CSS/JavaScript sem bibliotecas externas; o texto preenchido não é enviado a um servidor e deixa de existir ao fechar ou atualizar a página, salvo se o próprio participante copiá-lo.
+Para esta primeira publicação, a atividade funciona em **página HTML independente vinculada à aula 1.3**, com link de volta ao Manual. A decisão evita alterar o renderizador geral de `activities.json` e preserva as 19 atividades já existentes. O protótipo utiliza HTML/CSS/JavaScript sem bibliotecas externas; o texto preenchido não é enviado a um servidor e deixa de existir ao fechar ou atualizar a página, salvo se o próprio participante copiá-lo.
 
 A estimativa inicial de duração é 5–8 minutos e não foi validada com estudantes. As quatro decisões pedagógicas devem ser avaliadas por revisão editorial, testes com leitores e observação da experiência real de aprendizagem.
 
